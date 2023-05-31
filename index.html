@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width" , initial-scale="1.0">
+        <title>Tech Portfolio</title>
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abel&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+    <bod>
+        <section class = "header" id="header">
+            <nav>
+                <a href="index.html"><img src=""></a>
+                <div class="nav-links" id="nav-links">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">PROJECTS</a></li>
+                        <li><a href="#skills">SKILLS</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="text-box">
+                <h1>Hi! I am Rutuja Dukhande</h1>
+                <p>
+                    I am a Full stack developer. You are visiting this place.
+                </p>
+                <a href="img/resume.pdf" class="hero-btn">Know More</a>
+            </div>
+
+        </section>
+        <!-- ------------SKILLS ------------------- -->
+        <section class="skills" id="skills">
+            <h1>My skills</h1>
+            <p>Here are my skills</p>
+
+        <div class="row">
+            <div class="skill-col">
+                <h3>Intermediate</h3>
+                <p>I am in Intermediate</p>
+            </div>
+            <div class="skill-col">
+                <h3>Begineer</h3>
+                <p>I am in Begineer</p>
+            </div>
+            <div class="skill-col">
+                <h3>Advance</h3>
+                <p>I am in Advance</p>
+            </div>
+        </div>
+        </section>
+        <!-- ------------ Projects -------------- -->
+        <section class="projects">
+            <h1>Projects</h1>
+            <p>All my Projects</p>
+
+            <div class="row">
+                <div class="projects-col">
+                    <img src = "img/logo.jpg" alt="one im">
+                    <div class="layer">
+                        <h3>AgriScan</h3>
+                    </div>
+                </div>
+                <div class="projects-col">
+                    <img src = "img/logo.jpg" alt="one im">
+                    <div class="layer">
+                        <h3>AgriScan</h3>
+                    </div> 
+                </div>  
+                <div class="projects-col">
+                    <img src = "img/logo.jpg" alt="one im">
+                    <div class="layer">
+                        <h3>AgriScan</h3>
+                    </div>
+                </div>
+        
+                </div>
+                </div>
+            </div>
+        </section>
+        <!-- ---------------footer---------------- -->
+        <section class = "footer">
+            <h4>CONNECT WITH ME</h4>
+            <div class="icons">
+                <img class ="fa" src="img/github.png">
+                <img class ="fa" src="img/linkedin.png">
+                <img class ="fa" src="img/pinterest.png">
+                <img class ="fa" src="img/twitter.png">   
+            </div>
+            <p>Made with <img src="img/i-love-you.png"> by Rutuja Dukhande</p>
+
+        </section>
+       
+
+        <!-- --------javaScript for Toggle Menu ------- -->
+        <script>
+            let navlinks = document.getElementById("nav-links")
+
+            const showMenu = () =>{
+                navlinks.style.right = "0";
+            }
+            const hideMenu = () =>{
+                navlinks.style.right = " -200px"
+            }
+          
+        </script>
+    </bod>
+</html>

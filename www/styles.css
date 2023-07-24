@@ -1,0 +1,141 @@
+/* CSS HEX
+--rose-taupe: #785964ff;
+--cambridge-blue: #82a7a6ff;
+--dim-gray: #666666ff;
+--sky-blue: #9ed0e6ff;
+--rose-quartz: #b796acff; 
+
+--almond: #FOD9CB;
+--champange-Pink: #F1DFD3;
+--Middle-purple: #D58EBF;
+--Kobi: #E2A8BE;
+--Sunglow: #F9D326;
+
+--tufts-blue: #437FC7;
+--French-sky-blue: #6DAFFE;
+--Alice-blue: #EDF6FF;
+--White: #FFFFFF;
+--copper: #B9732F;
+
+*/
+
+
+/* Global styles
+----------------------------- */
+/* border box fit */
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color:#0A0A0A;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.content-wrapper{
+    width: 900px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+img{
+    width: 300px;
+}
+a{
+    color:  #D58EBF;
+}
+a:hover{
+    text-decoration: none;
+}
+h1{
+    font-size: 97px;
+}
+h2{
+    font-size: 45px;
+}
+h1, h2{
+    font-family:  'Roboto Mono', monospace;
+    font-weight: 400;
+    margin: 10px 10px 10px 0;
+}
+/* h1{
+    margin: 0;
+}
+h2{
+    margin: 0;
+}
+p, ul{
+    margin-bottom: 0%;
+} */
+
+/* Profile
+----------------------------- */
+header{
+    background-color: #6DAFFE;
+    text-align: center;
+}
+/* Projects
+----------------------------- */
+.projects{
+    background-color:#EDF6FF;
+}
+.projects a{
+    color: #D58EBF;
+}
+.projects .btn{
+    color: #F7FFF7;
+    background:  #D58EBF;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.projects .btn:hover{
+    background-color:rgba(47, 48, 97, 85%);
+}
+.project-item{
+    overflow: hidden;
+    border-bottom: 1px dashed #343434;
+    padding: 25px 0;
+}
+.project-item img{
+    float: left;
+    margin-right: 20px;
+}
+.project-item h3{
+    margin: 0;
+}
+
+/* Work Experience
+----------------------------- */
+.work-experience{
+    background-color:#E2A8BE;
+
+}
+/* Education
+----------------------------- */
+
+
+
+/* Contact Info
+----------------------------- */
+footer{
+    background-color:#B9732F;
+    color: #F7FFF7;
+    text-align: center;
+}
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.contact-list a{
+    padding: 15px;
+    display: inline-block
+}
+
